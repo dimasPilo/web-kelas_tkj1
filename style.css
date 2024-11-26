@@ -195,7 +195,17 @@ nav .navigation {
     justify-content: center;
     align-items: center;
     text-align: center;
-    
+}
+
+.fw h1.jw{
+    border-top: solid;
+    border-bottom: solid;
+    margin-bottom: 12px;
+    width: 110%;
+}
+
+.fw h1.jw span{
+    color: crimson;
 }
 
 .fw a img{
