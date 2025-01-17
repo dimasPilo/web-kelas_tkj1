@@ -6,6 +6,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 html{
   scroll-behavior: smooth;
 }
@@ -101,6 +105,9 @@ nav .navigation {
 }
 
 #menu-close {
+    transform: rotate(180deg);
+    padding-left: 1.4em;
+    margin-left: 1.5em;
     font-size: 30px;
     display: none;
 }
@@ -337,7 +344,7 @@ nav .navigation {
 }
 
 .img-gallery img:hover {
-    transform: scale(0.8) rotate(10deg);
+    transform: scale(1.2);
     box-shadow: 0 20px 7px rgba(68, 77, 136, 0.2);
 }
   
